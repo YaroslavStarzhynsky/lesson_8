@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./additional/css/style.css">
+    <link rel="stylesheet" href="./additional/css/all.css">
+    <title>Lesson 8</title>
+</head>
+<body>
+<div class="main">
+    <div class="content_box">
+        <h1>Lesson 8. Images. Font Awesome. Basic animation</h1>
+        <section class="first">
+            <h2>Font awesome + transition</h2>
+            <div class="icons">
+                <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Marvel</li>
+                    <li><span class="fa-li"><i class="link fas fa-spinner fa-pulse"></i></span>DC</li>
+                    <li><span class="fa-li"><i class="link far fa-square"></i></span>Starwars</li>
+                </ul>
+            </div>
+            <p>Наведись на фиолетовый блок и узри магию <strong>transition</strong>.</p>
+        </section>
+        <section class="animations">
+            <h2>Transform</h2>
+            <div class="animation_blocks">
+                <div class="block"></div>
+                <div class="block"></div>
+                <div class="block"></div>
+            </div>
+            <p><strong>Transform & keyframes</strong> в действии.</p>
+        </section>
+        <section class="second">
+            <h2 class="text title">CSS Background</h2>
+            <div class="images">
+
+            </div>
+            <p>Выставляем картинку через <strong>CSS</strong> свойство <strong>background</strong>.</p>
+        </section>
+        <section class="third">
+            <h2 class="text title">Images ( HTML Picture )</h2>
+            <div class="textimg">
+                <picture>
+                    <source srcset="./additional/images/grogu_1.jpg"  type="image/jpeg" media="(min-width:1330px)">
+                    <source srcset="./additional/images/grogu_2.jfif" type="image/jpeg" media="(min-width:992px)">
+                    <source srcset="./additional/images/grogu_3.jpg" type="image/jpeg" media="(max-width:992px)">
+                    <img src=".grogu_3.jpg" alt="">
+                </picture>
+            </div>
+            <p>Использование тега <strong>picture</strong> для отображения нужной картинки на нужном разрешении.</p>
+            <p>Открой эту страницу на <strong>разных девайсах</strong> и посмотри на результат.</p>
+        </section>
+        <section class="cards">
+            <h2 class="cards__title title">Universes (HTML object-fit )</h2>
+            <div class="cardrow">
+                <div class="cardscolumn">
+                    <div>
+                        <div class="cardimg">
+                            <img src="./additional/images/grogu_1.jpg" alt="">
+                        </div>
+                        <div>
+                            <p>Здесь кроется картинка с разрешением <strong>194*259</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardscolumn">
+                    <div>
+                        <div class="cardimg">
+                            <img src="./additional/images/grogu_2.jfif" alt="">
+                        </div>
+                        <div>
+                            <p>Здесь кроется картинка с разрешением <strong>819*1000</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardscolumn">
+                    <div>
+                        <div class="cardimg">
+                            <img src="./additional/images/grogu_3.jpg" alt="">
+                        </div>
+                        <div>
+                            <p>Здесь кроется картинка с разрешением <strong>1300*87</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="items">
+            <h2 class="text title">Universes in a row</h2>
+            <div class="item">
+                <div class="itemimg">
+                    <img src="./additional/images/marvel.jpg" alt="">
+                </div>
+                <div class="itemtxt">
+                    <div class="item_top">Marvel</div>
+                    <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, blanditiis at. Soluta debitis repudiandae impedit, magni amet natus fugiat possimus aliquid rem delectus adipisci culpa laudantium id, cupiditate cum dolorum!</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="itemimg">
+                    <img src="./additional/images/dc.jpg" alt="">
+                </div>
+                <div class="itemtxt">
+                    <div class="item_top">DC</div>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae obcaecati rem optio enim magni sit perspiciatis, repudiandae natus totam doloribus itaque error, ea illum dignissimos, nulla ipsam commodi voluptatibus nemo.
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="itemimg">
+                    <img src="./additional/images/mandalorian-baby-yoda-2-1573847849.png" alt="">
+                </div>
+                <div class="itemtxt">
+                    <div class="item_top">Star Wars</div>
+                    <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi ratione, repellat, quibusdam explicabo tempore, architecto omnis voluptatibus illo velit neque excepturi exercitationem repudiandae ullam voluptates pariatur. Facilis reiciendis odit rem!
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+</body>
+</html>
